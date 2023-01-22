@@ -5,11 +5,11 @@ import requests
 
 # Connect to the database
 connection = pymysql.connect(
-    host='containers-us-west-16.railway.app',
+    host='',
     user='root',
-    port=6302,
-    password='wYBhwOG3dfPum7uvjoh1',
-    db='images',
+    port=,
+    password='',
+    db='',
     cursorclass=pymysql.cursors.DictCursor
 )
 
